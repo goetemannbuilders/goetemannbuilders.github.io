@@ -14,37 +14,64 @@
 </head>
 
 <body style="font-family:Lora, serif;">
-    <section data-aos="fade" data-aos-duration="900" data-aos-once="true" id="section_nav"><section id="navbar">
-    <div id="navigation-block">
-        <nav class="navbar navbar-light navbar-expand-md" style="padding-bottom:0px;">
-            <div class="container-fluid"><a href="index.html" class="navbar-brand" id="navbar_brand_1" style="font-family:Bungee, cursive;background-position:center;background-size:contain;background-repeat:no-repeat;background-image:url('assets/img/goetemann2.png');color:rgba(154,23,23,0.9);padding-bottom:0px;"></a>
-                <button
-                    data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler" id="toggle_1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navcol-1">
+      <section data-aos="fade" data-aos-duration="900" data-aos-once="true" id="section_nav">
+         <section id="navbar">
+            <div id="navigation-block">
+               <nav class="navbar navbar-light navbar-expand-md" style="padding-bottom:35px;padding-top:48px;">
+                  <div class="container-fluid">
+                     <style>
+                        /* hide mobile version by default */
+                        .navbar_brand_1 .mobile {
+                        display: none;
+                        }
+                        /* when screen is less than 600px wide
+                        show mobile version and hide desktop */
+                        @media (max-width: 600px) {
+                        .navbar_brand_1 .mobile {
+                        display: block;
+                        }
+                        .navbar_brand_1 .desktop {
+                        display: none;
+                        }
+                        }
+                     </style>
+                     <div class="navbar_brand_1">
+                        <a href="index.html">
+                        <img src="assets/img/goetemann2.png" class="desktop" style="width:600px;height:100%;background-position:center;
+                           background-repeat:no-repeat;background-size:contain;color:rgba(154,23,23,0.9);padding-bottom:0px;" ></a>
+                        <a href="index.html">
+                        <img src="assets/img/goetemann22.png" class="mobile" style="height:100px;background-position:center;
+                           background-repeat:no-repeat;background-size:contain;color:rgba(154,23,23,0.9);padding-bottom:0px;" ></a>
+                     </div>
+                     <button
+                        data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler" id="toggle_1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                     <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="nav navbar-nav"></ul>
                         <ul class="nav navbar-nav ml-auto">
-                            <li class="dropdown"><a data-toggle="dropdown" aria-expanded="false" href="#" class="dropdown-toggle nav-link dropdown-toggle" style="color:#333;font-size:16px;">Projects</a>
-                                <div role="menu" class="dropdown-menu">
-                                    <a role="presentation" href="Old%20Sudbury%20Road.html" class="dropdown-item">Old Sudbury Road</a>
-                                    <a role="presentation" href="Silver%20Hill.html" class="dropdown-item">Silver Hill</a>
-                                    <a role="presentation" href="Weston%20Road.html" class="dropdown-item">Weston Road</a>
-                                    <a role="presentation" href="Pierce%20Estates.html" class="dropdown-item">Pierce Estates</a>
-                                    <a role="presentation" href="Horseshoe%20Lane.html" class="dropdown-item">Horseshoe Lane</a>
-                                    <a role="presentation" href="Todd%20Pond.html" class="dropdown-item">Todd Pond</a>
-                                    <a role="presentation" href="Rocky%20Neck.html" class="dropdown-item">Rocky Neck</a>
-                                    <a role="presentation" href="Lowell%20Road.html" class="dropdown-item">Concord Cottage</a>
-                                    <a role="presentation" href="Garden%20Room.html" class="dropdown-item">Garden Room</a>
-                                </div>
-                            </li>
-                            <li role="presentation" class="nav-item"><a href="Gallery.html" class="nav-link" style="color:#333;font-size:16px;">Gallery</a></li>
-                            <li role="presentation" class="nav-item"><a href="About%20Us.html" class="nav-link" style="color:#333;font-size:16px;">About Us</a></li>
-                            <li role="presentation" class="nav-item"><a href="Contact.html" class="nav-link active" style="color:#333;font-size:16px;">Contact</a></li>
+                           <li class="dropdown">
+                              <a data-toggle="dropdown" aria-expanded="false" href="#" class="dropdown-toggle nav-link dropdown-toggle" style="color:#333;font-size:16px;">Projects</a>
+                              <div role="menu" class="dropdown-menu">
+                                 <a role="presentation" href="Old%20Sudbury%20Road.html" class="dropdown-item">Old Sudbury Road</a>
+                                 <a role="presentation" href="Silver%20Hill.html" class="dropdown-item">Silver Hill</a>
+                                 <a role="presentation" href="Weston%20Road.html" class="dropdown-item">Weston Road</a>
+                                 <a role="presentation" href="Pierce%20Estates.html" class="dropdown-item">Pierce Estates</a>
+                                 <a role="presentation" href="Horseshoe%20Lane.html" class="dropdown-item">Horseshoe Lane</a>
+                                 <a role="presentation" href="Todd%20Pond.html" class="dropdown-item">Todd Pond</a>
+                                 <a role="presentation" href="Rocky%20Neck.html" class="dropdown-item">Rocky Neck</a>
+                                 <a role="presentation" href="Lowell%20Road.html" class="dropdown-item">Concord Cottage</a>
+                                 <a role="presentation" href="Garden%20Room.html" class="dropdown-item">Garden Room</a>
+                              </div>
+                           </li>
+                           <li role="presentation" class="nav-item"><a href="Gallery.html" class="nav-link" style="color:#333;font-size:16px;">Gallery</a></li>
+                           <li role="presentation" class="nav-item"><a href="About%20Us.html" class="nav-link" style="color:#333;font-size:16px;">About Us</a></li>
+                           <li role="presentation" class="nav-item"><a href="Contact.html" class="nav-link active" style="color:#333;font-size:16px;">Contact</a></li>
                         </ul>
-                    </div>
+                     </div>
+                  </div>
+            </nav>
             </div>
-        </nav>
-    </div>
-</section></section>
+         </section>
+      </section>
     <section style="margin-top:.7%;font-family:Lora, serif;"><section style="height:100vh;">  
     <div data-nanogallery2='{
         "userID": "159534861@N05",
@@ -80,6 +107,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://unpkg.com/nanogallery2@2.2.0/dist/jquery.nanogallery2.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/dyscrollup.min.js"></script>
 </body>
+
+<script type="text/javascript">
+    dyscrollup.init();
+</script>
+<style type="text/css">
+    #dyscrollup-btn {
+  z-index: 999999;
+  position: fixed;
+  cursor: pointer;
+  display: none;
+  bottom: 32px
+}
+</style>
+<script type="text/javascript">
+  dyscrollup.init({
+  showafter : '300',
+  scrolldelay : '500',
+  position : 'right',
+  image : 'assets/img/36.png',
+  shape : 'circle',
+  width : 32,
+  height : 32
+});
+</script>
 
 </html>
